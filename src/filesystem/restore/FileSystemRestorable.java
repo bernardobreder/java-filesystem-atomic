@@ -1,4 +1,4 @@
-package filesystem;
+package filesystem.restore;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
