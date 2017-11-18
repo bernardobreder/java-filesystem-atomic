@@ -2,7 +2,7 @@ package filesystem.restore;
 
 import org.junit.Test;
 
-public class FileSystemRestorableTest {
+public class FileSystemRestoreTest {
 
   @Test
   public void test() {

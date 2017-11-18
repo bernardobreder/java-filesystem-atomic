@@ -12,7 +12,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Map.Entry;
 
-public interface FileSystemRestorable {
+public interface FileSystemRestore {
 
   public default void restore() throws IOException {
     if (hasBackup()) {
