@@ -61,4 +61,16 @@ public class MockFileSystemAtomicModel implements FileSystemAtomicModel {
     return false;
   }
 
+  @Override
+  public void createState() throws IOException {
+    // TODO Auto-generated method stub
+
+  }
+
+  @Override
+  public boolean deleteState() {
+    // TODO Auto-generated method stub
+    return false;
+  }
+
 }

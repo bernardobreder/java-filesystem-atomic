@@ -124,6 +124,10 @@ public class FileSystemAtomic {
 
     public boolean deleteBackup();
 
+    public void createState() throws IOException;
+
+    public boolean deleteState();
+
   }
 
   public static class FileSystemAtomicException extends Exception {
